@@ -1,6 +1,6 @@
 # MERN E-COMMERCE TUTORIAL
 
-
+![image](https://github.com/ZeenatFirdosh/Ecommerce-react/assets/100707152/211a58db-e2c2-45c9-9a62-8c706bdfa733)
 
 
 # Install Dependencies
@@ -14,7 +14,7 @@
 Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
 
 **Essential Variables**
-PORT=
+PORT= <br/>
 DB_URI =
 STRIPE_API_KEY=
 STRIPE_SECRET_KEY=
@@ -28,7 +28,10 @@ SMPT_HOST=
 SMPT_PORT=
 CLOUDINARY_NAME
 CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
+CLOUDINARY_API_SECRET<br/>
 _fill each filed with your info respectively_
 
-
+** For Payment testing:
+* Visa	: 4242424242424242	
+* CVC : Any 3 digits	
+* DATE : Any future date
