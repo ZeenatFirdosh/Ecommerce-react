@@ -1,7 +1,7 @@
 const express = require("express");
 var cors = require('cors');
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "*", credentials: true }));
 
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
